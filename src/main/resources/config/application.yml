@@ -147,12 +147,12 @@ jhipster:
     title: DM API
     description: DM API documentation
     version: 0.0.1
-    terms-of-service-url:
-    contact-name:
-    contact-url:
-    contact-email:
-    license: unlicensed
-    license-url:
+    terms-of-service-url: https://www.INFO4Power.fr/GLDM/JeanTheophanedeMulatier/terms-of-services/view.php
+    contact-name: Jean-Theophane de Mulatier
+    contact-url: https://www.INFO4Power.fr/contacts/JeanTheophanedeMulatier
+    contact-email: jtdemulatier@polytech-info4.dk
+    license: mit
+    license-url: https://www.INFO4Power.fr/GLDM/JeanTheophanedeMulatier/license/view.php
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class

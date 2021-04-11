@@ -6,7 +6,7 @@ entity Compte {
     name String required
     surname String required
     age Integer min(0) max(120)
-    account_ID String maxlength(16) required
+    accountID String maxlength(16) required
     adress String required
     role String required
 }
@@ -18,7 +18,7 @@ entity Produit {
 }
 
 entity Panier {
-    nb_elements Integer required
+    nbElements Integer required
     price Integer required
 }
 
@@ -29,7 +29,7 @@ entity Restaurant {
 }
 
 entity Course {
-    time_required Integer required
+    timeRequired Integer required
 }
 
 entity SystemePaiement {
@@ -50,11 +50,8 @@ relationship OneToOne {
     Compte to Course
 }
 
-relationship ManyToOne {
-    Compte to Roles
-}
-
 relationship OneToMany {
+    Roles to Compte
     Compte to Panier
     Cooperative to Compte
     Cooperative to Restaurant
